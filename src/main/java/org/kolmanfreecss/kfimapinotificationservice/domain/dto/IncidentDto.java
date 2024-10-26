@@ -10,6 +10,6 @@ import java.util.UUID;
  * @version 1.0
  * @uthor Kolman-Freecss
  */
-public record IncidentDto(UUID id, String title, String description,
+public record IncidentDto(Long id, String title, String description,
                           IncidentStatus status, IncidentPriotity priority, Date reportDate, Date resolutionDate) {
 }
